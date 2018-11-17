@@ -1,0 +1,129 @@
+body{
+  width:100%;
+  height:700px;
+  margin:0;
+  padding:0;
+  font-family: sans-serif;
+}
+
+div.topBar{
+  margin-top:10% !important;
+}
+
+div.topBar, div.login-main, div.signup-main{
+  width:500px;
+  margin:auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+#signup,#login{
+  width:100%;
+  background:#283747;
+}
+
+#signup{
+  height:300px;
+} 
+
+#login{
+  height:300px;
+}
+
+.yellow{
+  background-color:#F4D03F;
+  color:#2c3e50;
+}
+
+#buttons{
+  height:100px;
+  background:#2c3e50;
+}
+
+#buttons > p {
+  width:49.95%;
+  float:left;
+  color:#fff;
+  text-align:center;
+  padding-top:25px;
+  height:75%;
+  margin:0;
+}
+
+#buttons > p:hover{
+  background:#f1c40f;
+  color:#2c3e50;
+  cursor:pointer;
+}
+
+#signup > input{
+  margin-top:20px;
+  margin-left:125px;
+  height:25px;
+  border:none;
+  border-radius:2px;
+}
+
+#first, #last, #confirm, #password, #email{
+  width:250px;
+}
+
+#username{
+  width:175px;
+}
+
+#login > #username,#login > #password{
+  width:250px;
+  margin-left:125px !important;
+  margin-top:20px;
+  height:25px;
+}
+
+button#register, button#login-btn{
+  width: 250px;
+  margin-left:125px !important;
+  margin-top:20px;
+  background: #F4D03F;
+  border: none;
+  padding: 8px; 
+  color: #283747;
+  cursor: pointer;
+}
+
+button#register:hover, button#login-btn:hover{
+  border: #fff 2px solid;
+  background: #2c3e50;
+  color: #fff;
+}
+
+.area{
+  padding: 15px 25px;
+  background: #2c3e50;
+  color: #fff;
+}
+.content{
+  margin-top: 5%;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+.rest-content{
+  background: #eee;
+  margin: 1% 0;
+  padding: 10px;
+}
+.rest-name{
+  font-size: 23px;
+  padding: 3px 0;
+}
+.rest-image{
+  width: 5%;
+  float: left;
+}
+.rest-image >img{
+  width: 90%;
+  border-radius: 50%;
+}
+.rest-loc{
+  margin-left: 30px;
+  font-size: 14px;
+}
