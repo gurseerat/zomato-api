@@ -1,3 +1,5 @@
+# Zomato Restaurant Search App (using ReactJs)
+
 ## Steps to run the project
 
 1. Clone the git in your local computer.
