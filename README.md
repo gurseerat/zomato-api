@@ -14,3 +14,8 @@
 4. After successful installation of the dependencies, start the app
 
 ### `npm start`
+
+### Login Details
+
+Username: admin
+Password: admin
